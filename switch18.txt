@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+   int ch a,b,c;
+   printf("1equilateral 2.isosceles3.scalene\n");  
+   scanf("%d",&ch);
+   scanf("%d%d%d",&a,&b,&c);
+    
+   switch(ch) {
+     case1:(a==b&&b==c)?
+   printf("equilatera\n"):printf("not equilateral\n");
+ break;
+   case2:((a==b||b==c||a==c)&&!
+(a==b&&b==c))?printf("isosceles\n"):printf("not lsosceles\n");
+break;
+ case3:(a!=b&&b!=c&&a!c)?
+printf("scalene\n"):printf("not scalene\n");
+break;
+default:printf("invalid choise\n");
+}
+}
+    
